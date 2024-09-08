@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.game_board{
+    border: 1px solid;
+    height: 500px;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(109, 109, 109);
+}
+
+.game_board .cenario{
+    width: 8900px;
+    position: absolute;
+    bottom: 0;
+    
+    
+}
+
+.personagem_principal{
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    bottom: 3px;
+    left: 120px;
+}
